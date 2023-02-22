@@ -1,0 +1,71 @@
+body {
+    /* background-color: white; */
+}
+
+.nav-bar h1 {
+    position: absolute;
+    left: 100px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.nav-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 90;
+}
+
+.nav-bar li {
+    display: inline;
+    list-style-type: none;
+    padding: 50px;
+}
+
+.top-img {
+    width: 100%;
+    height: auto;
+}
+
+.feature-bar {
+    position: relative;
+}
+
+.feature-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.ticket-section {
+    margin: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.date{
+    font-size: 25px;
+    border: solid 2px;
+    background-color: lightgray;
+}
+
+.ticket-1{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ticket-info{
+    display:flex;
+    flex-direction: column;
+}
+
+.button{
+    display: flex; 
+    justify-content:flex-end ;
+    align-items: center;
+}
+
